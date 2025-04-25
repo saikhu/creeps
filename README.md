@@ -1,2 +1,50 @@
-# creeps
-This is repo for my personal PC setup
+# 🖥️ creeps
+
+A personal configuration repository for my development and productivity setup.
+
+This repo helps me quickly bootstrap or replicate my preferred environment on any Linux machine — from aliases to future dotfiles, shell scripts, and system tweaks.
+
+
+## 📁 Structure
+
+```bash
+creeps/
+├── LICENSE                 # License: GNU GPL v2
+├── README.md               # You’re reading it
+└── scripts/
+    └── aliases.sh          # Custom shell aliases
+```
+
+## 🔧 Current Features
+
+### ✅ Aliases (`scripts/aliases.sh`)
+A collection of time-saving and frequently used aliases for:
+- Terminal navigation
+- Git commands
+- Docker shortcuts
+- SSH access to personal machines
+- System utilities
+
+To enable:
+Only if you are using `bash`, update `~/.zshrc` for `zsh` and so on.
+```bash
+echo -e '\n# enable personal aliases\nsource ~/creeps/scripts/aliases.sh' >> ~/.bashrc
+source ~/.bashrc
+```
+
+## 🛠 Planned Additions
+Coming soon:
+- `.bashrc` / `.zshrc` snippets
+- `gitconfig` settings
+- VSCode settings
+- GPG & SSH key setup
+- Installer script for new environments
+
+
+## 📜 License
+This project is licensed under the GNU General Public License v2.0.
+You are free to use, modify, and distribute this software under the terms of the GPL-2.0 license.
+
+
+## ✨ Why "creeps"?
+Because configurations can sneak into every corner of your workflow — and I want to tame them 😎
