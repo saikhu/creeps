@@ -6,14 +6,26 @@ This repo helps me quickly bootstrap or replicate my preferred environment on an
 
 
 ## 📁 Structure
-
+<!-- 
 ```bash
 creeps/
-├── LICENSE                 # License: GNU GPL v2
+├── LICENSE                 
 ├── README.md               # You’re reading it
 └── scripts/
     └── aliases.sh          # Custom shell aliases
+``` -->
+```bash
+creeps/
+├── configs
+│   └── ssh
+│       └── ssh_config_template          
+├── LICENSE                 # License: GNU GPL v2
+├── README.md
+├── scripts
+│   └── aliases.sh          # Custom shell aliases
+└── setup.sh
 ```
+🛡️ Note: `ssh_config_template` is for demonstration purposes. Replace placeholders with real values and **do not upload your actual SSH config publicly**.
 
 ## 🔧 Current Features
 

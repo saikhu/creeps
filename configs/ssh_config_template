@@ -1,0 +1,132 @@
+# Example SSH config template
+# Replace <HOST_IP>, <PORT>, and <USERNAME> with your actual values.
+# Read more: https://linux.die.net/man/5/ssh_config
+# 🛡️ Note: `ssh_config_template` is for demonstration purposes. 
+# Replace placeholders with real values and do not upload your actual SSH config publicly.
+
+Host le22d
+    HostName <PRIVATE_IP>
+    User <USERNAME>
+    ForwardAgent yes
+    ForwardX11 yes
+    IdentityFile ~/.ssh/id_ed25519
+
+Host plato
+    HostName <PRIVATE_IP>
+    Port 2201
+    User <USERNAME>
+    ForwardAgent yes
+    ForwardX11 yes
+    IdentityFile ~/.ssh/id_ed25519
+
+Host platovpn
+    HostName <VPN_IP>
+    User <USERNAME>
+    ForwardAgent yes
+    ForwardX11 yes
+    IdentityFile ~/.ssh/id_ed25519
+
+Host zeno
+    HostName <PRIVATE_IP>
+    Port 2202
+    User <USERNAME>
+    ForwardAgent yes
+    ForwardX11 yes
+    IdentityFile ~/.ssh/id_ed25519
+
+Host zenovpn
+    HostName <VPN_IP>
+    User <USERNAME>
+    ForwardAgent yes
+    ForwardX11 yes
+    IdentityFile ~/.ssh/id_ed25519
+
+Host hippo
+    HostName <PRIVATE_IP>
+    Port 2203
+    User <USERNAME>
+    ForwardAgent yes
+    ForwardX11 yes
+    IdentityFile ~/.ssh/id_ed25519
+
+Host hippovpn
+    HostName <VPN_IP>
+    User <USERNAME>
+    ForwardAgent yes
+    ForwardX11 yes
+    IdentityFile ~/.ssh/id_ed25519
+
+Host mercury
+    HostName <PRIVATE_IP>
+    Port 2204
+    User <USERNAME>
+    ForwardAgent yes
+    ForwardX11 yes
+    IdentityFile ~/.ssh/id_ed25519
+
+Host mercuryvpn
+    HostName <VPN_IP>
+    User <USERNAME>
+    ForwardAgent yes
+    ForwardX11 yes
+    IdentityFile ~/.ssh/id_ed25519
+
+Host venus
+    HostName <PRIVATE_IP>
+    Port 2205
+    User <USERNAME>
+    ForwardAgent yes
+    ForwardX11 yes
+    IdentityFile ~/.ssh/id_ed25519
+
+Host venusvpn
+    HostName <VPN_IP>
+    User <USERNAME>
+    ForwardAgent yes
+    ForwardX11 yes
+    IdentityFile ~/.ssh/id_ed25519
+
+Host mars
+    HostName <PRIVATE_IP>
+    Port 2206
+    User <USERNAME>
+    ForwardAgent yes
+    ForwardX11 yes
+    IdentityFile ~/.ssh/id_ed25519
+
+Host marsvpn
+    HostName <VPN_IP>
+    User <USERNAME>
+    ForwardAgent yes
+    ForwardX11 yes
+    IdentityFile ~/.ssh/id_ed25519
+
+Host jupiter
+    HostName <PRIVATE_IP>
+    Port 2207
+    User <USERNAME>
+    ForwardAgent yes
+    ForwardX11 yes
+    IdentityFile ~/.ssh/id_ed25519
+
+Host jupitervpn
+    HostName <VPN_IP>
+    User <USERNAME>
+    ForwardAgent yes
+    ForwardX11 yes
+    IdentityFile ~/.ssh/id_ed25519
+
+Host saturn
+    HostName <PRIVATE_IP>
+    Port 2208
+    User <USERNAME>
+    ForwardAgent yes
+    ForwardX11 yes
+    IdentityFile ~/.ssh/id_ed25519
+
+Host saturnvpn
+    HostName <VPN_IP>
+    User <USERNAME>
+    ForwardAgent yes
+    ForwardX11 yes
+    IdentityFile ~/.ssh/id_ed25519
