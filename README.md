@@ -25,14 +25,14 @@ A collection of time-saving and frequently used aliases for:
 - SSH access to personal machines
 - System utilities
 
-### To enable:
+## 🛠️ To enable:
 #### 1. 📥 Clone This Repo
 
 ```bash
 git clone https://github.com/saikhu/creeps.git ~/creeps
 ```
 
-- 1.1 Manually setup:
+- Manually setup:
 Only if you are using `bash`, update `~/.zshrc` for `zsh` and so on.
 
     ```bash
@@ -40,7 +40,7 @@ Only if you are using `bash`, update `~/.zshrc` for `zsh` and so on.
     source ~/.bashrc
     ```
 OR
-- 1.2 Setup script 
+- Setup by using script 
     ```bash
     chmod +x setup.sh               # Make it executable
     ./setup.sh                      # Run the setup file

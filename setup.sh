@@ -16,5 +16,5 @@ fi
 read -p "Do you want to apply changes now? (y/n): " yn
 if [[ "$yn" =~ ^[Yy]$ ]]; then
     source ~/.bashrc
-    echo "✅ .bashrc reloaded"
+    echo " ✅ .bashrc reloaded"
 fi
