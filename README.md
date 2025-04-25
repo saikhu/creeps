@@ -26,6 +26,12 @@ A collection of time-saving and frequently used aliases for:
 - System utilities
 
 To enable:
+#### 📥 Clone This Repo
+
+```bash
+git clone https://github.com/saikhu/creeps.git ~/creeps
+```
+
 Only if you are using `bash`, update `~/.zshrc` for `zsh` and so on.
 ```bash
 echo -e '\n# enable personal aliases\nsource ~/creeps/scripts/aliases.sh' >> ~/.bashrc
