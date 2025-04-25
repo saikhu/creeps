@@ -15,9 +15,9 @@ alias pingg='ping google.com'
 alias ports='sudo lsof -i -P -n | grep LISTEN'
 
 # --- Directory Jumpers ---
-alias edgeai='cd ~/Desktop/DeltaX/AAT/boards/Ti/TDA4VH/edgeai-app-stack'
-alias tf='cd ~/Documents/tensorflow/models'
-alias work='cd ~/projects/workspace'
+alias desk='~/Desktop'
+alias down='~/Downloads'
+
 
 # --- Git Time-Savers ---
 alias gs='git status'
