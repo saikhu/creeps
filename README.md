@@ -17,8 +17,7 @@ creeps/
 ```bash
 creeps/
 ├── configs
-│   └── ssh
-│       └── ssh_config_template          
+│   └── ssh_config_template          
 ├── LICENSE                 # License: GNU GPL v2
 ├── README.md
 ├── scripts
