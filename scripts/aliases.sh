@@ -1,5 +1,6 @@
 # --- Quick System Shortcuts ---
-alias update='sudo apt update && sudo apt upgrade -y'
+alias update='sudo apt update -y'
+alias upgrade='sudo apt upgrade -y'
 alias clr='clear'
 alias ..='cd ..'
 alias ...='cd ../..'
